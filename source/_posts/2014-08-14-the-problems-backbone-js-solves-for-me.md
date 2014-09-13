@@ -125,7 +125,7 @@ Given the above scenario, the Main Section View is responsible for initializing 
 The side view is responsible for rending the widgets. Each parent view may also be responsible for initializing
 Backbone.Collections or Backbone.Models for its children.
 
-How does the view build HTML? That is a topic for another post.
+[How does the view build HTML? That is a topic for another post](/blog/2014/08/20/making-the-case-for-client-side-templates/)
 
 Backbone.Collection / Backbone.Model
 -------------------------------------
@@ -222,5 +222,5 @@ Summary
 In a nutshell, Backbone.JS provides component code that allows for clean separation of concerns. By calling external
 objects in the Router, your router can be thin mapper to views. Views can be nested, simplifying the views and making
 the views more reusable. By injecting models or collections into views, you can keep data "model" logic separate from
-view logic.
+view logic. [In a related post](/blog/2014/08/20/making-the-case-for-client-side-templates/), I discuss how to render HTML with templates.
 
