@@ -51,7 +51,7 @@ There are some examples of commanding pattern in JavaScript. These examples, in 
     //triggers command:success success:activate events
     //returns xhr object, so you can chain fail success/failure callbacks
 
-I have not yet implemnted this patern. I think this might be the best way to bridge CRUDy Backbone and CQRS rest api.
+I have not yet implemnted this patern, but I think this might be the best way to bridge CRUDy Backbone and CQRS rest api.
 
 
 
